@@ -81,19 +81,7 @@ ul {
     color: red;
 }
 
-.days {
-    background-color: rgb(128, 5, 5);
-}
-
-.hours {
-    background-color: rgb(128, 5, 5);
-}
-
-.minutes {
-    background-color: rgb(128, 5, 5);
-}
-
-.seconds {
+.countdown .badge {
     background-color: rgb(128, 5, 5);
 }
 
