@@ -6,7 +6,6 @@ body {
 .navbar {
     border-bottom: #7a7373 1px solid;
     opacity: 0.8;
-    padding: 20px;
 }
 
 li {
@@ -22,7 +21,6 @@ ul {
     min-height: 600px;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .landingPageProgram {
@@ -171,8 +169,6 @@ ul {
     margin-top: 30px;
 }
 
-
-
 #myFooter a {
     color: #d2d1d1;
     text-decoration: none;
@@ -204,25 +200,28 @@ ul {
         margin-left: 50px;
 
     }
+
     .card-img {
         max-height: 400px;
         max-width: 400px;
-    
+
     }
+
     .countdown {
         font-size: 150%;
         margin-left: 20px;
     }
-  
+
     .top {
         margin-top: 9%;
-        
-      }
-      .tagline {
+
+    }
+
+    .tagline {
         font-size: 150%;
     }
-    
-    .smallText{
+
+    .smallText {
         font-size: 20px;
     }
 
@@ -248,8 +247,8 @@ ul {
         margin-bottom: 20px;
 
     }
-    
-    
+
+
     .landingPageSynopsis {
         background: url('/img/Jumanji_Banner.png')no-repeat;
         min-height: 500px;
@@ -257,9 +256,11 @@ ul {
         background-attachment: fixed;
 
     }
-    .register{
+
+    .register {
         font-size: 20px;
     }
+
     .synopsisdark-overlay {
         background-color: rgba(0, 0, 0, 0.7);
         position: absolute;
@@ -268,20 +269,19 @@ ul {
         width: 100%;
         min-height: 400px;
     }
-    .textSynopsis{
-        text-align:justify;
+
+    .textSynopsis {
+        text-align: justify;
     }
 
     .screenings {
         text-align: center;
     }
+
     #myFooter {
         text-align: center;
     }
-
-
 }
-
 
 /** {
     background: #000 !important;
