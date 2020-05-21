@@ -73,6 +73,10 @@ ul {
     padding: 20px;
 }
 
+lh-2 {
+    line-height: 2;
+}
+
 .tagline {
     font-size: 220%;
 }
