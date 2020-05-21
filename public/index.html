@@ -61,18 +61,18 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="text">
-                                <h4 class="display-4 ml-5 tagline">
+                            <div class="p-4">
+                                <h4 class="display-3 pl-4 pt-2 tagline">
                                     <strong>Watch It Outside</strong>
                                     <span class="edition">Boston Editon</span>
                                 </h4>
-                                <h2 class="ml-5">5th -8th August</h2>
-                                <h4 class="p-4 smallText">
+                                <h5 class="pl-4 pt-2">5th -8th August</h5>
+                                <h5 class="pl-4 py-2">
                                     This year watch it outside events Co has been approved to show
                                     movies in boston and organizing an outdoor film festival in
                                     boston public garden Join us on this watch it outside boston
                                     edition to discover awesome films.
-                                </h4>
+                                </h5>
 
                                 <button
                                         class="btn ml-4 btn-lg btn-danger register-btn"
@@ -410,6 +410,7 @@
                 duration: 2700,
                 origin: 'bottom',
             });
+
         </script>
 
         <script>
@@ -435,6 +436,7 @@
                     document.getElementById('second').innerHTML = '0';
                 }
             }, 1000);
+
         </script>
         <script>
             $(function () {
@@ -446,12 +448,11 @@
                         location.hostname == this.hostname
                     ) {
                         var target = $(this.hash);
-                        target = target.length
-                            ? target
-                            : $('[name=' + this.hash.slice(1) + ']');
+                        target = target.length ?
+                            target :
+                            $('[name=' + this.hash.slice(1) + ']');
                         if (target.length) {
-                            $('html, body').animate(
-                                {
+                            $('html, body').animate({
                                     scrollTop: target.offset().top,
                                 },
                                 1000
@@ -461,6 +462,7 @@
                     }
                 });
             });
+
         </script>
     </body>
 
