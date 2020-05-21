@@ -82,22 +82,18 @@ ul {
 }
 
 .days {
-    padding: 5px;
     background-color: rgb(128, 5, 5);
 }
 
 .hours {
-    padding: 5px;
     background-color: rgb(128, 5, 5);
 }
 
 .minutes {
-    padding: 5px;
     background-color: rgb(128, 5, 5);
 }
 
 .seconds {
-    padding: 5px;
     background-color: rgb(128, 5, 5);
 }
 
