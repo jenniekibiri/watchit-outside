@@ -18,7 +18,7 @@ ul {
 }
 
 .landingPage {
-    background: url('/img/landingpic.jpg')no-repeat;
+    background: url('../img/landingpic.jpg')no-repeat;
     min-height: 600px;
     background-size: cover;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ ul {
 }
 
 .landingPageProgram {
-    background: url('/img/Film-Production-Australia.jpg')no-repeat;
+    background: url('../img/Film-Production-Australia.jpg')no-repeat;
     min-height: 600px;
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ ul {
 }
 
 .landingPageSynopsis {
-    background: url('/img/Jumanji_Banner.png')no-repeat;
+    background: url('../img/Jumanji_Banner.png')no-repeat;
     min-height: 750px;
     background-size: cover;
     background-attachment: fixed;
@@ -251,7 +251,7 @@ ul {
     
     
     .landingPageSynopsis {
-        background: url('/img/Jumanji_Banner.png')no-repeat;
+        background: url('../img/Jumanji_Banner.png')no-repeat;
         min-height: 500px;
         background-size: cover;
         background-attachment: fixed;
