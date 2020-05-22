@@ -1,42 +1,23 @@
 body {
-  background: rgb(20, 19, 19);
-  color: #fff;
+    background: rgb(20, 19, 19);
+    color: #fff;
 }
 
 .navbar {
-  border-bottom: #7a7373 1px solid;
-  opacity: 0.8;
+    border-bottom: #7a7373 1px solid;
+    opacity: 0.8;
+    padding: 20px;
 }
 
 li {
-  color: #fff;
+    color: #fff;
 }
 
 ul {
-  margin-left: 12%;
+    margin-left: 12%;
 }
 
 .landingPage {
-
-  background: url('/img/landingpic.jpg') no-repeat;
-  min-height: 600px;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.landingPageProgram {
-  background: url('/img/Film-Production-Australia.jpg') no-repeat;
-  min-height: 600px;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.landingPageSynopsis {
-  background: url('/img/Jumanji_Banner.png') no-repeat;
-  min-height: 750px;
-  background-size: cover;
-  background-attachment: fixed;
-
     background: url(../img/landingpic.jpg)no-repeat;
     min-height: 600px;
     background-size: cover;
@@ -58,142 +39,166 @@ ul {
     background-size: cover;
     background-attachment: fixed;
 
-
 }
 
 .dark-overlay {
-  /**to make the text over the image legible*/
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 2;
-  left: 0;
-  width: 100%;
-  min-height: 600px;
+    /**to make the text over the image legible*/
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
 }
 
 .programdark-overlay {
-  /**to make the text over the image legible*/
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 2;
-  left: 0;
-  width: 100%;
-  min-height: 600px;
+    /**to make the text over the image legible*/
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
 }
 
 .synopsisdark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 2;
-  left: 0;
-  width: 100%;
-  min-height: 750px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2;
+    left: 0;
+    width: 100%;
+    min-height: 750px;
 }
 
 .text {
-  margin-top: 20px;
-  padding: 20px;
-}
-
-lh-2 {
-  line-height: 2;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .tagline {
-  font-size: 220%;
+    font-size: 220%;
 }
 
 .edition {
-  color: red;
+    color: red;
 }
 
-.countdown .badge {
-  background-color: rgb(128, 5, 5);
+.days {
+    padding: 5px;
+    background-color: rgb(128, 5, 5);
+}
+
+.hours {
+    padding: 5px;
+    background-color: rgb(128, 5, 5);
+}
+
+.minutes {
+    padding: 5px;
+    background-color: rgb(128, 5, 5);
+}
+
+.seconds {
+    padding: 5px;
+    background-color: rgb(128, 5, 5);
 }
 
 .countdown {
-  font-size: 150%;
+    font-size: 150%;
 }
 
 .news {
-  max-width: 100%;
+    max-width: 100%;
 
-  height: 450px;
+    height: 450px;
 }
 
 .card-img {
-  max-height: 450px;
+    max-height: 450px;
+
 }
 
+
 .websitenews {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2;
+    left: 0;
+    width: 100%;
+    max-height: 320px;
 }
 
 .boston {
-  height: 250px;
+    height: 250px;
 }
 
 .fa-instagram {
-  background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 .movieTitle {
-  margin-top: 35%;
+    margin-top: 35%;
+
 }
+
+
 
 #myFooter {
-  background-color: #17181a;
-  color: white;
+    background-color: #17181a;
+    color: white;
 }
 
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+
 #myFooter ul {
-  list-style-type: none;
-  padding-left: 0;
-  line-height: 1.7;
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
 }
 
 #myFooter h5 {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
+
+
 #myFooter a {
-  color: #d2d1d1;
-  text-decoration: none;
+    color: #d2d1d1;
+    text-decoration: none;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
+
 #myFooter .facebook:hover {
-  color: #0077e2;
+    color: #0077e2;
 }
 
 #myFooter .youtube:hover {
-  color: #ef1a1a;
+    color: #ef1a1a;
 }
 
 #myFooter .twitter:hover {
-  color: #00aced;
+    color: #00aced;
 }
 
-@media screen and (max-width: 767px) {
 
+@media screen and (max-width: 767px) {
     .navbtn {
 
         margin-left: 50px;
@@ -275,80 +280,8 @@ lh-2 {
     }
 
 
-  .card-img {
-    max-height: 400px;
-    max-width: 400px;
-  }
-
-  .countdown {
-    font-size: 150%;
-    margin-left: 20px;
-  }
-
-  .top {
-    margin-top: 9%;
-  }
-
-  .tagline {
-    font-size: 150%;
-  }
-
-  .smallText {
-    font-size: 20px;
-  }
-
-  .trailer {
-    width: 300px;
-    margin-right: 20px;
-  }
-
-  .movieTitle {
-    font-size: 35px;
-    margin-top: 76%;
-  }
-
-  .publicgarden {
-    width: 330px;
-    margin-bottom: 20px;
-  }
-
-  .publicgardenmap {
-    width: 330px;
-    margin-bottom: 20px;
-  }
-
-  .landingPageSynopsis {
-    background: url('/img/Jumanji_Banner.png') no-repeat;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .register {
-    font-size: 20px;
-  }
-
-  .synopsisdark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 2;
-    left: 0;
-    width: 100%;
-    min-height: 400px;
-  }
-
-  .textSynopsis {
-    text-align: justify;
-  }
-
-  .screenings {
-    text-align: center;
-  }
-
-  #myFooter {
-    text-align: center;
-  }
 }
+
 
 /** {
     background: #000 !important;
