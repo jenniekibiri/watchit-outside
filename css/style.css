@@ -17,6 +17,7 @@ ul {
 }
 
 .landingPage {
+
   background: url('/img/landingpic.jpg') no-repeat;
   min-height: 600px;
   background-size: cover;
@@ -35,6 +36,29 @@ ul {
   min-height: 750px;
   background-size: cover;
   background-attachment: fixed;
+
+    background: url(../img/landingpic.jpg)no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.landingPageProgram {
+    background: url(../img/Film-Production-Australia.jpg)no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.landingPageSynopsis {
+    background: url(../img/Jumanji_Banner.png)no-repeat;
+    min-height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+
+
 }
 
 .dark-overlay {
@@ -169,9 +193,87 @@ lh-2 {
 }
 
 @media screen and (max-width: 767px) {
-  .navbtn {
-    margin-left: 50px;
-  }
+
+    .navbtn {
+
+        margin-left: 50px;
+
+    }
+    .card-img {
+        max-height: 400px;
+        max-width: 400px;
+    
+    }
+    .countdown {
+        font-size: 150%;
+        margin-left: 20px;
+    }
+  
+    .top {
+        margin-top: 9%;
+        
+      }
+      .tagline {
+        font-size: 150%;
+    }
+    
+    .smallText{
+        font-size: 20px;
+    }
+
+    .trailer {
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .movieTitle {
+        font-size: 35px;
+        margin-top: 76%;
+
+    }
+
+    .publicgarden {
+        width: 330px;
+        margin-bottom: 20px;
+
+    }
+
+    .publicgardenmap {
+        width: 330px;
+        margin-bottom: 20px;
+
+    }
+    
+    
+    .landingPageSynopsis {
+        background: url(../img/Jumanji_Banner.png)no-repeat;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    .register{
+        font-size: 20px;
+    }
+    .synopsisdark-overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 2;
+        left: 0;
+        width: 100%;
+        min-height: 400px;
+    }
+    .textSynopsis{
+        text-align:justify;
+    }
+
+    .screenings {
+        text-align: center;
+    }
+    #myFooter {
+        text-align: center;
+    }
+
 
   .card-img {
     max-height: 400px;
