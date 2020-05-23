@@ -107,22 +107,17 @@ ul {
     font-size: 150%;
 }
 
-.news {
-    max-width: 100%;
 
-    height: 450px;
-}
 
 .card-img {
     max-height: 450px;
     
 }
 .publicgarden{
-    width: 620px;
+    width: 540px;
 }
 .publicgardenmap{
-    width: 415px;
-    margin-left: -60px;
+    width: 530px;
 
 }
 
@@ -249,8 +244,8 @@ ul {
         width:300px;
         margin-bottom: 20px;
         height: 350px;
-        margin: 5px;
-        margin-left: 20px;
+        margin: 4px;
+        margin-left: 15px;
 
     }
 
@@ -258,8 +253,9 @@ ul {
         width:300px;
         margin-bottom: 20px;
         height: 350px;
-        margin: 5px;
-        margin-left: 20px;
+        margin: 4px;
+        
+        margin-left: 15px;
     }
     
     
@@ -288,9 +284,7 @@ ul {
     .screenings {
         text-align: center;
     }
-    .news{
-        width: 400px;
-    }
+  
     #myFooter {
         text-align: center;
     }
@@ -298,7 +292,26 @@ ul {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .publicgarden {
+        width:340px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin: 4px;
+        margin-left: 10px;
 
+    }
+
+    .publicgardenmap {
+        width:340px;
+        margin-bottom: 20px;
+        height: 350px;
+    
+    }
+       .boston{
+        max-height: 350px;
+       }
+}
 /** {
     background: #000 !important;
     color: #0f0 !important;
