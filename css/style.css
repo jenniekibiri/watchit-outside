@@ -115,9 +115,16 @@ ul {
 
 .card-img {
     max-height: 450px;
+    
+}
+.publicgarden{
+    width: 620px;
+}
+.publicgardenmap{
+    width: 415px;
+    margin-left: -60px;
 
 }
-
 
 .websitenews {
     background-color: rgba(0, 0, 0, 0.7);
@@ -199,6 +206,7 @@ ul {
 
 
 @media screen and (max-width: 767px) {
+  
     .navbtn {
 
         margin-left: 50px;
@@ -206,7 +214,7 @@ ul {
     }
     .card-img {
         max-height: 400px;
-        max-width: 400px;
+      
     
     }
     .countdown {
@@ -238,15 +246,20 @@ ul {
     }
 
     .publicgarden {
-        width: 330px;
+        width:400px;
         margin-bottom: 20px;
+        height: 350px;
+        margin: 5px;
+        margin-left: 20px;
 
     }
 
     .publicgardenmap {
-        width: 330px;
+        width:400px;
         margin-bottom: 20px;
-
+        height: 350px;
+        margin: 5px;
+        margin-left: 20px;
     }
     
     
@@ -274,6 +287,9 @@ ul {
 
     .screenings {
         text-align: center;
+    }
+    .news{
+        width: 400px;
     }
     #myFooter {
         text-align: center;
